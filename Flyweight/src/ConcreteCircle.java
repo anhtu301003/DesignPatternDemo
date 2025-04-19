@@ -1,7 +1,7 @@
 public class ConcreteCircle implements Circle {
-    private String color;
-    private int x;
-    private int y;
+    private String color;// Trạng thái nội tại (intrinsic)
+    private int x;        // Trạng thái ngoại tại (extrinsic)
+    private int y;        // Trạng thái ngoại tại (extrinsic)
 
     public ConcreteCircle(String color){
         this.color = color;
